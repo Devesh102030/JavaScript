@@ -20,5 +20,28 @@ console.log(stringNumber);
 //           -> "" -> false
 //           -> "Devesh" -> true
 
+//************OPERATIONS****************/
+
+console.log("1"+2)  //=12
+console.log("1"+2+2) //=122
+console.log(1+2+"2") //=32
+
+console.log(true) //=true
+console.log(+true) //=1 converts true to number
+console.log(+"")  //=0 coverts false to number
+
+console.log("2">2); //=false converts "2" to number 
+
+console.log(null>0) //false
+console.log(null==0) //false (comparison and greater/less than operator work in different ways in js)
+console.log(null>=0) //true
+
+console.log(undefined>0) //false
+console.log(undefined==0) //false 
+console.log(undefined>=0) //false
+
+console.log("2" === 2) //false as === compares datatype also
+
+
 
 
